@@ -1,0 +1,145 @@
+body {
+  background-color: moccasin;
+  align-content: center;
+  padding-left: 5em;
+  padding-top: 2em;
+}
+
+.is-active {
+  font-weight: bold;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+.navbar {
+  position: fixed;
+  width: 15%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 2em;
+  background: antiquewhite;
+}
+
+.book {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.text {
+  font-family: Arial;
+}
+
+/* Create equal columns that sit next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 30%;
+    padding: 10 10px;
+}
+
+.wrapper div {
+ /* border: 2px solid #ffa94d;
+  border-radius: 5px;*/
+  /*background-color: #ffd8a8;*/
+ /* padding: 1em;*/
+  padding-top: 1em;
+  color: #d9480f;
+}
+
+.wrapper {
+  display: grid;
+  margin-left: 10em;
+/*  grid-template-columns: repeat(4, 1fr);*/
+/*  float: left;*/
+/*  grid-template-columns: repeat(10, 1.5vw);*/
+  grid-gap: 4em;
+  width: 85%;
+  grid-template-columns: repeat(5, 10vw);
+  grid-template-rows: repeat(10, 20vh);
+}
+
+.page-title {
+  text-align: center;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 3em;
+  padding: 0.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.book-info {
+    display: inline-block;
+    font-size: 1em;
+/*    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 100px;*/
+    font-weight: bold;
+    margin-top: 1.33em;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position:fixed;
+  background: moccasin;
+  width: 40%;
+  height: 13%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.text-input {
+  margin: 1.5em;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.image-thumbnail {
+  width: 1.5em;
+  padding-top: 1em;
+}
+
+.book-list-item {
+  padding-left: 0.5em;
+  margin-bottom: 1000px;
+}
+
+.move-down {
+  margin-bottom: 2em;
+}
+
+.image-description {
+  margin-left: 8em;
+}

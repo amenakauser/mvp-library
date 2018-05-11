@@ -1,0 +1,5 @@
+node_modules
+react-client/dist/bundle.js
+config.js
+
+*.env
